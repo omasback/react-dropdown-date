@@ -501,7 +501,7 @@ var DropdownDate = exports.DropdownDate = function (_React$Component) {
 
             return _react2.default.createElement(
                 'div',
-                { id: 'dropdown-year', className: this.props.classes && this.props.classes.yearContainer ? this.props.classes.yearContainer : null },
+                { key: 'year', id: 'dropdown-year', className: this.props.classes && this.props.classes.yearContainer ? this.props.classes.yearContainer : null },
                 _react2.default.createElement(
                     'select',
                     {
@@ -524,7 +524,7 @@ var DropdownDate = exports.DropdownDate = function (_React$Component) {
 
             return _react2.default.createElement(
                 'div',
-                { id: 'dropdown-month', className: this.props.classes && this.props.classes.monthContainer ? this.props.classes.monthContainer : null },
+                { key: 'month', id: 'dropdown-month', className: this.props.classes && this.props.classes.monthContainer ? this.props.classes.monthContainer : null },
                 _react2.default.createElement(
                     'select',
                     {
@@ -547,7 +547,7 @@ var DropdownDate = exports.DropdownDate = function (_React$Component) {
 
             return _react2.default.createElement(
                 'div',
-                { id: 'dropdown-day', className: this.props.classes && this.props.classes.dayContainer ? this.props.classes.dayContainer : null },
+                { key: 'day', id: 'dropdown-day', className: this.props.classes && this.props.classes.dayContainer ? this.props.classes.dayContainer : null },
                 _react2.default.createElement(
                     'select',
                     {
